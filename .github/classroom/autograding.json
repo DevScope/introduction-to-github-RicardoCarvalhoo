@@ -9,6 +9,36 @@
       "comparison": "regex",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Step 2",
+      "setup": "",
+      "run": "cat",
+      "input": ".github/script/STEP",
+      "output": "^[^01]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 3",
+      "setup": "",
+      "run": "cat",
+      "input": ".github/script/STEP",
+      "output": "^[^012]+$\r\n",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 4",
+      "setup": "",
+      "run": "cat",
+      "input": ".github/script/STEP",
+      "output": "^[^0123]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
