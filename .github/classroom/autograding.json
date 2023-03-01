@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Step 1",
+      "setup": "",
+      "run": "cat",
+      "input": ".github/script/STEP",
+      "output": "^[^0]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
